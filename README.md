@@ -21,7 +21,7 @@ MyWatchList é uma aplicação web desenvolvida em PHP que permite gerenciar uma
 ## 📁 Estrutura de Arquivos
 
 ```
-MyWatchList/
+my-watchlist-app-main/
 ├── config.php          # Configurações do banco de dados e TMDB API
 ├── login.php           # Autenticação e criação de usuários
 ├── logout.php          # Script para encerrar sessão
@@ -72,7 +72,7 @@ MyWatchList/
 
 Abra seu navegador e acesse:
 ```
-http://localhost/MyWatchList/login.php
+http://localhost/my-watchlist-app-main/login.php
 ```
 
 ## 📖 Como Usar
