@@ -1,0 +1,16 @@
+# --- IDEs e Editores ---
+.idea/
+.vscode/
+*.swp
+*.lsh
+
+# --- Arquivos do Sistema ---
+Thumbs.db
+.DS_Store
+
+# --- Configurações Sensíveis ---
+# .env
+# config_local.php
+
+# --- Logs ---
+*.log
