@@ -45,9 +45,17 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <title>Editar - MyWatchList</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
+
         body {
             font-family: Arial;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            margin: 0;
+            box-sizing: border-box;
         }
 
         i {
@@ -66,12 +74,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
 
         .container {
-            max-width: 600px;
-            margin: 50px auto;
-            padding: 30px;
             background: white;
-            border-radius: 20px;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            max-width: 500px;
+            width: 100%;
         }
 
         select, input {
